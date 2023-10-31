@@ -10,7 +10,6 @@ Ce projet démontre l'utilisation de Jena SPARQL, Spring Boot, Protégé et Angu
 4. [Utilisation](#utilisation)
 5. [Structure du projet](#structure-du-projet)
 6. [Contribution](#contribution)
-7. [Licence](#licence)
 
 ## Introduction
 
