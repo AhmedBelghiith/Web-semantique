@@ -1,0 +1,31 @@
+<div>
+  <nav class="navbar navbar-expand navbar-dark bg-dark col">
+    <a routerLink="tutorials" class="navbar-brand" style="margin-left: 50px;">Social Media</a>
+    <div class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a routerLink="home" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="'/group'" class="nav-link">Groups</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="'/pages'" class="nav-link">Pages</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="'/event'" class="nav-link">Events</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="'/comments'" class="nav-link">Comments</a>
+      </li>
+    </div>
+    <div class="navbar-nav ms-auto"> <!-- Use ms-auto to push items to the right -->
+      <li class="nav-item">
+        <a class="nav-link">Logout</a>
+      </li>
+    </div>
+  </nav>
+
+  <div class="container mt-3">
+    <router-outlet></router-outlet>
+  </div>
+</div>
