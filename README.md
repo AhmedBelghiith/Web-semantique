@@ -32,7 +32,7 @@ Assurez-vous d'avoir installé les éléments suivants avant de commencer :
 ## Installation
 
 1. Clonez le dépôt depuis GitHub :
-git clone https://github.com/votreutilisateur/votre-projet.git
+git clone https://github.com/AhmedBelghiith/Web-semantique.git
 
 
 2. Accédez au répertoire du projet :
@@ -61,8 +61,8 @@ ng serve
 
 ## Structure du projet
 
-- `backend/` : Contient le code source de l'application Spring Boot.
-- `frontend/` : Contient le code source de l'application Angular.
+- `WebSemantiqueSocialMedia/` : Contient le code source de l'application Spring Boot.
+- `front/` : Contient le code source de l'application Angular.
 - ...
 
 ## Contribution
